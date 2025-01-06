@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Montserrat;
+    height: 2600px;
+    width: 1920px;
+    margin: 0;
+    overflow-x: hidden;
+    /*ADD OVERFLOW HIDDEN*/
+}
+
+
+
+
+.header {
+    position:relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+
+.left {
+    position: relative;
+    height: 60px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #18324A;
+    background: linear-gradient(to right, #18324A 0%, #6F3CCF 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.name {
+    font-weight: bold;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.middle {
+    position: relative;
+    height: 60px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-button, 
+.shop-button,
+.create-button,
+.about-button,
+.login-button {
+    cursor: pointer;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+    transition: 0.5s ease-out;
+}
+
+.home-button:hover,
+.shop-button:hover,
+.create-button:hover,
+.about-button:hover,
+.login-button:hover {
+    background: #18324A;
+    background: linear-gradient(to right, #18324A 0%, #6F3CCF 83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right {
+    position: relative;
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.get-started-button {
+    font-weight: 500;
+    border: 2px solid #542ba0;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.get-started-button:hover {
+    background-color: #7550b9;
+    color: white;
+    border-color: #7550b9;
+}
+
+.first-page-left {
+    height: 850px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.phrase-container {
+    font-size: 80px;
+    padding-left: 80px;
+}
+
+.luxite {
+    background: #18324A;
+    font-weight: bold;
+    background: linear-gradient(to right, #18324A 0%, #6F3CCF 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.phrase-container .sub-phrase {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.buy-now-button {
+    margin-left: 80px;
+    margin-top: 70px;
+    background-color: black;
+    width: 180px;
+    height: 45px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buy-now-picture {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 15px;
+    margin-top: 5px;
+    position: absolute;
+    left: 5px;
+    top: 1px;
+}
+
+.buy-now-saying {
+    padding-right: 45px;
+}
+
+.buy-now-button:hover {
+    background-color: #6F3CCF;
+}
+
+.first-page-right {
+    height: 850px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.crystal {
+    width: 700px;
+    height: 700px;
+}
+
+.down {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 100;
+    left: 48.7%;
+    bottom: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
